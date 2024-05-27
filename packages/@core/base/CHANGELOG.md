@@ -1,5 +1,11 @@
 # @xtineui/base
 
+## 1.2.0
+
+### Minor Changes
+
+- 3ae61f5: - Fixed refrence for types
+
 ## 1.1.1
 
 ### Patch Changes
