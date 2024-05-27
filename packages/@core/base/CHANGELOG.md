@@ -1,5 +1,12 @@
 # @xtineui/base
 
+## 1.1.1
+
+### Patch Changes
+
+- abcc8b6: - Types added for correct typecasting
+  - Fixed value as type error
+
 ## 1.1.0
 
 ### Minor Changes
