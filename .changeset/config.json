@@ -1,11 +1,17 @@
 {
   "$schema": "https://unpkg.com/@changesets/config@2.0.0/schema.json",
-  "changelog": "@changesets/cli/changelog",
+  "changelog": ["@changesets/changelog-github", { "repo": "org/repo" }],
   "commit": false,
   "fixed": [],
-  "linked": [],
+  "linked": [["@xtineui/base"]],
   "baseBranch": "main",
   "access": "public",
   "updateInternalDependencies": "patch",
-  "ignore": []
+  "ignore": [],
+  "message": "chore(release): update versions",
+  "release": {
+    "tag": "next"
+  },
+  "prTitle": "chore: 🆕 create a release",
+  "prBody": "This pull request was automatically generated. It includes the following changes:\n\n{{changesetSummary}}\n\nPlease review the changes and merge if everything looks good."
 }
