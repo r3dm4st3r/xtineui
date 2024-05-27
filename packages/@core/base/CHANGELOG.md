@@ -1,5 +1,13 @@
 # @xtineui/base
 
+## 1.1.0
+
+### Minor Changes
+
+- 94dbc49: - Styles added from core
+  - Style refrence updated
+  - Fixed error for style not found
+
 ## 1.2.0
 
 ### Minor Changes
