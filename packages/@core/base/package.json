@@ -1,15 +1,28 @@
 {
   "name": "@xtineui/base",
-  "version": "1.2.0",
-  "sideEffects": false,
+  "version": "1.0.0",
+  "sideEffects": [
+    "./dist/styles.layer.css",
+    "./dist/styles.css",
+    "./dist/styles/*"
+  ],
   "license": "MIT",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "types": "./dist/index.ts",
+      "types": "./dist/index.d.ts",
       "import": "./dist/index.mjs",
       "require": "./dist/index.js"
-    }
+    },
+    "./styles.layer.css": "./dist/styles.layer.css",
+    "./styles.css": "./dist/styles.css",
+    "./styles/*": "./dist/styles/*"
   },
+  "files": [
+    "dist/**/*"
+  ],
   "scripts": {
     "build": "tsup && shx cp node_modules/@mantine/core/styles.layer.css dist/styles.layer.css && shx cp node_modules/@mantine/core/styles.css dist/styles.css && shx cp -r node_modules/@mantine/core/styles dist/styles",
     "dev": "tsup --watch",
@@ -28,8 +41,8 @@
     "typescript": "^5"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "shx": "^0.3.4"
+    "react": "^18",
+    "shx": "^0"
   },
   "peerDependencies": {
     "@mantine/core": "^7",
