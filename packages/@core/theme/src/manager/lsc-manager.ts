@@ -21,6 +21,7 @@ export const lscManager = ({
 
       try {
         return (
+          // eslint-disable-next-line @typescript-eslint/no-unnecessary-condition -- Not needed
           (window.localStorage.getItem(key) as MantineColorScheme) ||
           defaultValue
         );
