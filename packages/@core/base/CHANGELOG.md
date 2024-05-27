@@ -1,5 +1,11 @@
 # @xtineui/base
 
+## 1.2.1
+
+### Patch Changes
+
+- c56b492: - Config and Package File updated
+
 ## 1.1.0
 
 ### Minor Changes
