@@ -1,5 +1,24 @@
 # @xtineui/base
 
+## 1.2.0
+
+### Minor Changes
+
+- 3ae61f5: - Fixed refrence for types
+
+## 1.1.1
+
+### Patch Changes
+
+- abcc8b6: - Types added for correct typecasting
+  - Fixed value as type error
+
+## 1.1.0
+
+### Minor Changes
+
+- 8652037: Updated cofiguration for build
+
 ## 1.0.0
 
 ### Major Changes
