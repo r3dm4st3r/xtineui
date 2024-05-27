@@ -1,0 +1,41 @@
+{
+  "name": "@xtineui/base",
+  "version": "0.0.0",
+  "sideEffects": false,
+  "license": "MIT",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsup && shx cp node_modules/@mantine/core/styles.layer.css dist/styles.layer.css && shx cp node_modules/@mantine/core/styles.css dist/styles.css && shx cp -r node_modules/@mantine/core/styles dist/styles",
+    "dev": "tsup --watch",
+    "lint": "eslint . --ext .tsx,.jsx,.ts --max-warnings 0",
+    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
+  },
+  "devDependencies": {
+    "@mantine/core": "^7",
+    "@mantine/hooks": "^7",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@xtineui/config-eslint": "workspace:*",
+    "@xtineui/config-typescript": "workspace:*",
+    "eslint": "^8",
+    "tsup": "^8",
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "shx": "^0.3.4"
+  },
+  "peerDependencies": {
+    "@mantine/core": "^7",
+    "@mantine/hooks": "^7"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

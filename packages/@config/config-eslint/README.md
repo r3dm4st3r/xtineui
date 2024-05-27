@@ -1,3 +1,3 @@
-# `@turbo/eslint-config`
+# `@xtineui/eslint-config`
 
 Collection of internal eslint configurations.
