@@ -1,5 +1,11 @@
 # @xtineui/base
 
+## 1.4.0
+
+### Minor Changes
+
+- [`2739262`](https://github.com/r3dm4st3r/xtineui/commit/27392623f6e2c0cae558c3ec9cee39cc3455ae79) - Minor Patches
+
 ## 1.3.0
 
 ### Minor Changes
