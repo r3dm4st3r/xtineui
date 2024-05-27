@@ -1,6 +1,6 @@
 {
   "name": "@xtineui/base",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "sideEffects": [
     "./dist/styles.layer.css",
     "./dist/styles.css",
