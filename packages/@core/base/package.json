@@ -5,7 +5,7 @@
   "license": "MIT",
   "exports": {
     ".": {
-      "types": "./src/types.ts",
+      "types": "./dist/index.ts",
       "import": "./dist/index.mjs",
       "require": "./dist/index.js"
     }
