@@ -28,8 +28,7 @@
     "build": "tsup && shx cp node_modules/@mantine/core/styles.layer.css dist/styles.layer.css && shx cp node_modules/@mantine/core/styles.css dist/styles.css && shx cp -r node_modules/@mantine/core/styles dist/styles",
     "dev": "tsup --watch",
     "lint": "eslint . --ext .tsx,.jsx,.ts --max-warnings 0",
-    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist",
-    "install": "tsup && shx cp node_modules/@mantine/core/styles.layer.css dist/styles.layer.css && shx cp node_modules/@mantine/core/styles.css dist/styles.css && shx cp -r node_modules/@mantine/core/styles dist/styles"
+    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
   },
   "devDependencies": {
     "@mantine/core": "^7",
