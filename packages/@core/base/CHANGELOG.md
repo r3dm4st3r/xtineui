@@ -1,5 +1,11 @@
 # @xtineui/base
 
+## 1.5.0
+
+### Minor Changes
+
+- [`a513837`](https://github.com/r3dm4st3r/xtineui/commit/a513837e366ee15b7ec867c9538c9f463913ce72) - Remove script after install
+
 ## 1.4.0
 
 ### Minor Changes
