@@ -35,7 +35,7 @@ jobs:
           key: ${{ runner.os }}-turbo-${{ hashFiles('**/pnpm-lock.yaml') }}
 
       - name: Build with TurboRepo
-        run: pnpm turbo run build --filter=... --cache-dir=.turbo
+        run: pnpm turbo run build --cache-dir=.turbo
         env:
           TURBO_API: ${{ secrets.TURBO_API_KEY }}
 
