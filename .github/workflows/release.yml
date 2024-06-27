@@ -23,10 +23,21 @@ jobs:
           node-version: 20
 
       - name: Install pnpm
-        run: npm install -g pnpm@9.3.0
+        run: npm install -g pnpm@9.4.0
 
       - name: Install Dependencies
         run: pnpm install
+
+      - name: Cache TurboRepo Cache
+        uses: actions/cache@v3
+        with:
+          path: .turbo
+          key: ${{ runner.os }}-turbo-${{ hashFiles('**/pnpm-lock.yaml') }}
+
+      - name: Build with TurboRepo
+        run: pnpm turbo run build --filter=... --cache-dir=.turbo
+        env:
+          TURBO_API: ${{ secrets.TURBO_API_KEY }}
 
       - name: Create Release Pull Request or Publish to npm
         id: changesets
