@@ -1,5 +1,11 @@
 # @xtineui/base
 
+## 1.6.0
+
+### Minor Changes
+
+- [`0396b52`](https://github.com/r3dm4st3r/xtineui/commit/0396b52d7d906beaaf68cdef16fb5acd7daf5d57) - Packages Upgraded
+
 ## 1.5.0
 
 ### Minor Changes

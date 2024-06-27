@@ -1,5 +1,16 @@
 # @xtineui/theme
 
+## 4.0.0
+
+### Minor Changes
+
+- [`0396b52`](https://github.com/r3dm4st3r/xtineui/commit/0396b52d7d906beaaf68cdef16fb5acd7daf5d57) - Packages Upgraded
+
+### Patch Changes
+
+- Updated dependencies [[`0396b52`](https://github.com/r3dm4st3r/xtineui/commit/0396b52d7d906beaaf68cdef16fb5acd7daf5d57)]:
+  - @xtineui/base@1.6.0
+
 ## 3.0.0
 
 ### Patch Changes

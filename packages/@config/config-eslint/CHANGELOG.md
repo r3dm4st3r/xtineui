@@ -1,5 +1,11 @@
 # @xtineui/config-eslint
 
+## 1.3.0
+
+### Minor Changes
+
+- [`0396b52`](https://github.com/r3dm4st3r/xtineui/commit/0396b52d7d906beaaf68cdef16fb5acd7daf5d57) - Packages Upgraded
+
 ## 1.2.0
 
 ### Minor Changes
