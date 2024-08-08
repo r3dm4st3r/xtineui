@@ -1,7 +1,7 @@
 {
   "name": "@xtineui/theme",
   "description": "A collection of theme for XtineUI",
-  "version": "6.0.0",
+  "version": "7.0.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
