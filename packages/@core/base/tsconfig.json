@@ -2,12 +2,20 @@
   "extends": "@xtineui/config-typescript/library.json",
   "include": [
     ".",
-    "src/*.ts"
+    "src"
   ],
   "compilerOptions": {
     "declaration": true,
     "declarationMap": true,
-    "emitDeclarationOnly": true
+    "emitDeclarationOnly": true,
+    "declarationDir": "./dist",
+    "outDir": "./dist",
+    "module": "ESNext",
+    "target": "ESNext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": true
   },
   "exclude": ["dist", "build", "node_modules"]
 }
