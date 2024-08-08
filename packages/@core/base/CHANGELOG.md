@@ -1,5 +1,11 @@
 # @xtineui/base
 
+## 2.0.0
+
+### Major Changes
+
+- [`80808ff`](https://github.com/r3dm4st3r/xtineui/commit/80808ff9c11ac44fede24181f99cde06d1283652) Thanks [@r3dm4st3r](https://github.com/r3dm4st3r)! - Updated pacakges
+
 ## 1.6.0
 
 ### Minor Changes
