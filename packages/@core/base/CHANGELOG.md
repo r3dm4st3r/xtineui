@@ -1,5 +1,11 @@
 # @xtineui/base
 
+## 2.3.0
+
+### Minor Changes
+
+- [`b811fb1`](https://github.com/r3dm4st3r/xtineui/commit/b811fb1ea12bd72f8aa2b638e70ae354a1825239) Thanks [@r3dm4st3r](https://github.com/r3dm4st3r)! - Minor update
+
 ## 2.2.0
 
 ### Minor Changes
