@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/xtine.iml" filepath="$PROJECT_DIR$/.idea/xtine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/xtineui.iml" filepath="$PROJECT_DIR$/.idea/xtineui.iml" />
     </modules>
   </component>
 </project>

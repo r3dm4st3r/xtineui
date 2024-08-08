@@ -14,10 +14,10 @@
   },
   "dependencies": {
     "@changesets/changelog-github": "^0.5.0",
-    "@changesets/cli": "^2.27.6",
+    "@changesets/cli": "^2.27.7",
     "@manypkg/cli": "latest",
-    "prettier": "^3.3.2",
+    "prettier": "^3.3.3",
     "turbo": "latest"
   },
-  "packageManager": "pnpm@9.4.0"
+  "packageManager": "pnpm@9.7.0"
 }
