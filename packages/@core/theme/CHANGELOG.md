@@ -1,5 +1,12 @@
 # @xtineui/theme
 
+## 7.0.0
+
+### Patch Changes
+
+- Updated dependencies [[`4bc4c2f`](https://github.com/r3dm4st3r/xtineui/commit/4bc4c2fd8b4b3e5820c66763272ad8ce0ffce9bc)]:
+  - @xtineui/base@2.2.0
+
 ## 6.0.0
 
 ### Minor Changes

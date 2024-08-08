@@ -1,5 +1,11 @@
 # @xtineui/base
 
+## 2.2.0
+
+### Minor Changes
+
+- [`4bc4c2f`](https://github.com/r3dm4st3r/xtineui/commit/4bc4c2fd8b4b3e5820c66763272ad8ce0ffce9bc) Thanks [@r3dm4st3r](https://github.com/r3dm4st3r)! - Update type referrence for styles
+
 ## 2.1.0
 
 ### Minor Changes
