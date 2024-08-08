@@ -1,5 +1,16 @@
 # @xtineui/theme
 
+## 6.0.0
+
+### Minor Changes
+
+- [`186f99b`](https://github.com/r3dm4st3r/xtineui/commit/186f99bbd840dcf30501c8cb00b512d27060e442) Thanks [@r3dm4st3r](https://github.com/r3dm4st3r)! - Updated packages and configurations
+
+### Patch Changes
+
+- Updated dependencies [[`186f99b`](https://github.com/r3dm4st3r/xtineui/commit/186f99bbd840dcf30501c8cb00b512d27060e442)]:
+  - @xtineui/base@2.1.0
+
 ## 5.0.0
 
 ### Patch Changes
