@@ -2,7 +2,8 @@
   "extends": "@xtineui/config-typescript/library.json",
   "include": [
     ".",
-    "src"
+    "src",
+    "src/global.d.ts"
   ],
   "compilerOptions": {
     "declaration": true,

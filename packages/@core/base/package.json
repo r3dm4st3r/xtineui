@@ -14,7 +14,6 @@
     ".": {
       "types": "./dist/index.d.ts",
       "import": "./dist/index.mjs",
-      "export": "./src/index.js",
       "require": "./dist/index.js"
     },
     "./styles.layer.css": "./dist/styles.layer.css",
